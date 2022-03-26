@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="manifest" href="data:application/json;base64,ew0KICAgICIkc2NoZW1hIjogImh0dHBzOi8vanNvbi5zY2hlbWFzdG9yZS5vcmcvd2ViLW1hbmlmZXN0LWNvbWJpbmVkLmpzb24iLA0KICAgICJvcmllbnRhdGlvbiI6ICJsYW5kc2NhcGUiDQp9">
+    <title>Document</title>
+  <script type="module" crossorigin src="./assets/index.b7825428.js"></script>
+  <link rel="stylesheet" href="./assets/index.8e497c64.css">
+</head>
+<body>
+    <div id="container">
+        <!-- <img class="island" id="azores" src="/assets/map/azores_locked.png" alt="" srcset="">
+        <img class="island" id="madeira" src="/assets/map/madeira_locked.png" alt="" srcset=""> -->
+        
+        <img rel="preload" alt="" srcset="" usemap="#macmap" id="img-map">
+        <div id="gameboard-container">
+            <div id="gameboard"></div>
+        </div>
+        
+        <map name="macmap">
+            <!---
+             <area shape="rect" href="#" alt="azores" id="azores">
+            <area shape="rect" href="#" alt="azores" id="azores" coords="185,98,443,239">
+            -->
+
+            <area shape="rect" href="#" alt="azores" id="azores" coords="185,98,443,239">
+            <area shape="rect" href="#" alt="madeira" id="madeira" coords="9401,4812,7861,3837">
+            <area target="" alt="" title="" href="#" coords="7878,5446,10103,6780" shape="rect" id="canarias">
+            <area target="" alt="" title="" href="#" coords="6270,12435,3994,11083" shape="rect" id="cabo-verde">
+        </map>
+
+    </div>
+
+    <div id="dialog-background">
+        <div id="dialog-container">
+            <div id="dialog-msg"></div>
+            <button id="continue"> 
+                Continuar
+            </button>
+        </div>
+    </div>
+    
+</body>
+</html>
